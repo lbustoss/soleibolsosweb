@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>SOLEI | Bolsos artesanales de crochet y tela hechos a mano</title>
+<meta name="description" content="Bolsos artesanales de crochet y tela, hechos a mano y de edición única: cada modelo se produce una sola vez. Descubre SOLEI.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Federo&family=EB+Garamond:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#F7F0E6;--card:#FCF8F2;--ink:#3b2a1a;--gold:#E8A33D;--gold-d:#B97A1B;--line:#E3D5C3;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-padding-top:env(safe-area-inset-top,0px);background:#F7F0E6;color-scheme:light}
+*{box-sizing:border-box}
+body{margin:0;background:#F7F0E6;color:var(--ink);font-family:"EB Garamond",Georgia,"Times New Roman",serif;font-size:20px;line-height:1.6}
+body{background-image:url("%3Csvg xmlns='http://www.w3.org/2000/svg' width='28' height='28' viewBox='0 0 28 28' fill='none' stroke='%23E8A33D' stroke-opacity='.16' stroke-width='1.6' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='M7 6l7 9 7-9'/%3E%3Cpath d='M0 20l7 9M14 20l7 9'/%3E%3C/svg%3E"),radial-gradient(circle at 90% 6%,rgba(232,163,61,.22),transparent 42%),radial-gradient(circle at 5% 95%,rgba(232,163,61,.16),transparent 45%),linear-gradient(180deg,#FAF4EA,#F3E8D8);background-attachment:scroll,fixed,fixed,fixed;min-height:100vh}
+body::before{content:"";position:fixed;right:-110px;bottom:-110px;width:520px;height:520px;background:url("%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100' fill='none' stroke='%23E8A33D' stroke-width='2.2' stroke-linecap='round'%3E%3Cpath d='M50 6v24M50 70v24M6 50h24M70 50h24M19 19l13 13M68 68l13 13M81 19L68 32M32 68L19 81'/%3E%3Cpath d='M50 63c-8 0-13-6-13-13s5-12 13-12 14 6 14 14-8 15-17 15'/%3E%3C/svg%3E") no-repeat center/contain;opacity:.16;pointer-events:none;z-index:0}
+header,main,footer{position:relative;z-index:1}
+header{background:rgba(250,244,234,.92)!important;backdrop-filter:blur(6px)}
+.card{box-shadow:0 8px 24px rgba(185,122,27,.10)}
+h1,h2,.logo{font-family:Federo,Georgia,serif;font-weight:400;line-height:1.15;margin:0 0 .5em;color:var(--gold)}
+h3{font-family:"EB Garamond",Georgia,serif;font-weight:700;color:var(--gold-d);font-size:1.25rem;margin:0 0 .4em}
+h1{font-size:clamp(2.3rem,7vw,4rem)}h2{font-size:clamp(1.9rem,5vw,2.8rem)}
+a{color:var(--gold-d)}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--bg);border-bottom:1px solid var(--line)}
+nav{max-width:1000px;margin:auto;padding:12px 20px;display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+.logo{display:flex;align-items:center;gap:8px;font-size:1.9rem;letter-spacing:.1em;text-decoration:none;margin:0}
+nav ul{display:flex;gap:20px;list-style:none;margin:0;padding:0;flex-wrap:wrap}
+nav ul a{color:var(--ink);text-decoration:none;font-size:1rem;padding-bottom:2px;border-bottom:2px solid transparent}
+nav ul a:hover,nav ul a:focus,nav ul a[aria-current="page"]{color:var(--gold-d);border-bottom-color:var(--gold)}
+.page{display:none;max-width:1000px;margin:auto;padding:56px 20px 72px}
+.page.on{display:block}
+.hero{text-align:center}
+.sub{color:var(--gold-d);font-weight:700;font-size:1.15rem}
+.eyebrow{letter-spacing:.3em;text-transform:uppercase;font-size:.85rem;color:var(--gold-d)}
+.btn{display:inline-block;background:var(--gold);color:#2b1c0d;padding:12px 28px;border-radius:999px;text-decoration:none;font-family:inherit;font-size:1.05rem;font-weight:500;border:0;cursor:pointer}
+.btn:hover,.btn:focus{filter:brightness(.93)}
+.btn.alt{background:transparent;border:1.5px solid var(--gold-d);color:var(--gold-d);margin-left:8px}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:20px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:22px}
+.bag{height:150px;border-radius:14px;background:var(--bg);display:grid;place-items:center;margin-bottom:14px}
+.tag{display:inline-block;font-size:.75rem;letter-spacing:.12em;text-transform:uppercase;background:var(--gold);color:#2b1c0d;border-radius:999px;padding:2px 10px}
+.two{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:32px;align-items:start}
+form{display:grid;gap:12px;max-width:520px}
+label{font-size:.95rem}
+input,textarea{width:100%;padding:12px;border-radius:12px;border:1px solid var(--line);background:var(--card);color:var(--ink);font:inherit}
+input:focus,textarea:focus,a:focus,.btn:focus{outline:3px solid var(--gold);outline-offset:2px}
+footer{border-top:1px solid var(--line);text-align:center;padding:28px 20px;font-size:.95rem}
+.sr{position:absolute;left:-9999px}
+h1:focus,h2:focus{outline:none}
+</style>
+</head>
+<body>
+<a class="sr" href="#/contenido-ignorar" onclick="document.getElementById('contenido').focus();return false">Saltar al contenido</a>
+<header>
+<nav aria-label="Principal">
+<a class="logo" href="#/" aria-label="SOLEI, inicio">
+<svg width="32" height="32" viewBox="0 0 100 100" role="img" aria-label="Logo SOLEI: sol con espiral" fill="none" stroke="#E8A33D" stroke-width="5" stroke-linecap="round"><path d="M50 8v22M50 70v22M8 50h22M70 50h22M20 20l12 12M68 68l12 12M80 20L68 32M32 68L20 80"/><path d="M50 62c-8 0-12-6-12-12s5-11 12-11 13 6 13 13-7 14-16 14"/></svg>
+SOLEI</a>
+<ul>
+<li><a href="#/" data-r="">Inicio</a></li>
+<li><a href="#/coleccion" data-r="coleccion">Colección</a></li>
+<li><a href="#/quienes-somos" data-r="quienes-somos">Quiénes somos</a></li>
+<li><a href="#/blog" data-r="blog">Blog</a></li>
+<li><a href="#/contacto" data-r="contacto">Contacto</a></li>
+</ul>
+</nav>
+</header>
+
+<main id="contenido" tabindex="-1">
+
+<section class="page hero" data-r="" data-t="SOLEI | Bolsos artesanales de crochet y tela hechos a mano">
+<p class="eyebrow">Artesanal · Bolsos y complementos</p>
+<h1 tabindex="-1">SOLEI</h1>
+<p class="sub">Bolsos artesanales de crochet y tela</p>
+<p style="max-width:620px;margin:0 auto 28px">Hechos a mano, uno a uno. Cada modelo se produce una sola vez: cuando se vende, desaparece para siempre.</p>
+<a class="btn" href="#/coleccion">Ver la colección</a><a class="btn alt" href="#/contacto">Reservar un bolso</a>
+</section>
+
+<section class="page" data-r="coleccion" data-t="Colección de bolsos únicos | SOLEI">
+<h2 tabindex="-1">Colección</h2>
+<p>Piezas únicas disponibles. Si te gusta una, no esperes: no se repite.</p>
+<div class="grid">
+<article class="card"><div class="bag" role="img" aria-label="Bolso de crochet amarillo con botón dorado"><svg width="110" height="110" viewBox="0 0 100 100"><path d="M30 42c0-26 40-26 40 0" fill="none" stroke="#E8A33D" stroke-width="7" stroke-linecap="round"/><path d="M18 46h64c4 24-10 44-32 44S14 70 18 46z" fill="#E8A33D"/><circle cx="50" cy="76" r="7" fill="#f5d27a" stroke="#B97A1B" stroke-width="2"/></svg></div><span class="tag">Pieza única</span><h3>Bolso Sol de crochet</h3><p>Crochet amarillo, asa curva y botón dorado con el sol SOLEI.</p><a href="#/contacto">Lo quiero</a></article>
+<article class="card"><div class="bag" role="img" aria-label="Bolso de tela artesanal"><svg width="110" height="110" viewBox="0 0 100 100"><path d="M32 40c0-22 36-22 36 0" fill="none" stroke="#B97A1B" stroke-width="6" stroke-linecap="round"/><rect x="18" y="40" width="64" height="48" rx="8" fill="#d9a05b"/><path d="M18 58h64" stroke="#F7F0E6" stroke-width="3" stroke-dasharray="6 5"/></svg></div><span class="tag">Pieza única</span><h3>Bolso de tela</h3><p>Tela seleccionada, cosido a mano. Ningún otro igual.</p><a href="#/contacto">Lo quiero</a></article>
+<article class="card"><div class="bag" role="img" aria-label="Complemento artesanal"><svg width="110" height="110" viewBox="0 0 100 100"><ellipse cx="50" cy="56" rx="32" ry="24" fill="#f5d27a" stroke="#B97A1B" stroke-width="3"/><path d="M50 40v32M34 56h32" stroke="#B97A1B" stroke-width="3" stroke-linecap="round"/></svg></div><span class="tag">Próximamente</span><h3>Complementos</h3><p>Neceseres y pequeños detalles a juego, también en edición única.</p><a href="#/contacto">Avísame</a></article>
+</div>
+</section>
+
+<section class="page" data-r="quienes-somos" data-t="Quiénes somos | SOLEI">
+<h2 tabindex="-1">Quiénes somos</h2>
+<div class="two">
+<div><p>Somos Candela, Jimena y Laura. SOLEI nace de las ganas de tener un accesorio que nadie más lleve.</p>
+<p>Trabajamos el crochet y la tela a mano, sin repetir modelos: la producción de cada diseño se limita a un solo bolso.</p></div>
+<div class="card"><h3>Por qué SOLEI</h3><p><strong>Hecho a mano:</strong> cada puntada cuenta.<br><strong>Edición de uno:</strong> tu bolso es solo tuyo.<br><strong>Para todas:</strong> mujeres de todas las edades.</p></div>
+</div>
+</section>
+
+<section class="page" data-r="blog" data-t="Blog | SOLEI">
+<h2 tabindex="-1">Blog</h2>
+<div class="grid">
+<article class="card"><h3>Cómo cuidar un bolso de crochet para que dure años</h3><p>Lavado, forma y almacenamiento: consejos prácticos para tu bolso artesanal.</p></article>
+<article class="card"><h3>Qué significa que un bolso sea pieza única</h3><p>Por qué no repetimos modelos y qué aporta un accesorio exclusivo.</p></article>
+</div>
+</section>
+
+<section class="page" data-r="contacto" data-t="Contacto y reservas | SOLEI">
+<h2 tabindex="-1">Contacto y reservas</h2>
+<p>Cuéntanos qué bolso te interesa y te respondemos.</p>
+<form onsubmit="event.preventDefault();this.querySelector('output').textContent='¡Gracias! Te escribiremos pronto.';">
+<div><label for="n">Nombre</label><input id="n" required autocomplete="name"></div>
+<div><label for="e">Email</label><input id="e" type="email" required autocomplete="email"></div>
+<div><label for="m">Mensaje</label><textarea id="m" rows="4" required></textarea></div>
+<button class="btn" type="submit">Enviar</button><output aria-live="polite"></output>
+</form>
+</section>
+
+</main>
+
+<footer>© 2026 SOLEI · Bolsos artesanales de crochet y tela · Candela, Jimena y Laura
+<p style="font-size:.8rem;opacity:.75;margin:10px auto 0;max-width:640px">Proyecto universitario de Marketing Digital (Grado en Business Analytics). SOLEI no es un producto real: los bolsos, las reservas y los contenidos son ficticios.</p></footer>
+
+<script>
+(function(){
+  var pages=[].slice.call(document.querySelectorAll('.page'));
+  var links=[].slice.call(document.querySelectorAll('nav ul a'));
+  function route(first){
+    var r=(location.hash||'').replace(/^#\/?/,'');
+    var cur=pages.filter(function(p){return p.dataset.r===r})[0]||pages[0];
+    pages.forEach(function(p){p.classList.toggle('on',p===cur)});
+    links.forEach(function(a){a.dataset.r===cur.dataset.r?a.setAttribute('aria-current','page'):a.removeAttribute('aria-current')});
+    document.title=cur.dataset.t;
+    window.scrollTo(0,0);
+    if(!first){var h=cur.querySelector('h1,h2');if(h)h.focus({preventScroll:true});}
+  }
+  window.addEventListener('hashchange',function(){route(false)});
+  route(true);
+})();
+</script>
+</body>
+</html>
